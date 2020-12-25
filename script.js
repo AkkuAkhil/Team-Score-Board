@@ -35,7 +35,6 @@ const highScore = function () {
 const init = function () {
   playerOneScore = playerTwoScore = 0;
   scoreOne.textContent = scoreTwo.textContent = 0;
-  console.log(playerOneScore, playerTwoScore);
   highScore();
 };
 init();
